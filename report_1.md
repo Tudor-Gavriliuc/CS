@@ -1,12 +1,8 @@
 # Gavriliuc Tudor
 
-# Caesar Cipher Implementation Report
+# Caesar Cipher
 
-## 1. Introduction to Caesar Cipher
-
-Caesar cipher is one of the simplest and most well-known encryption techniques. It is a substitution cipher where each letter in the plaintext is replaced by a letter some fixed number of positions down or up the alphabet. This fixed number of positions is known as the key.
-
-The general formula for encryption is:
+The general formula:
 ```
 c = (x + k) % 26
 ```
@@ -33,7 +29,7 @@ H -> K, E -> H, L -> O, L -> O, O -> R
 ```
 Resulting in the encrypted message: `"KHOOR"`.
 
-## 2. Task 1: Basic Caesar Cipher Implementation
+Task 1: Basic Caesar Cipher Implementation
 
 ### Task Description
 The goal of this task is to implement the Caesar cipher for the English alphabet without using pre-existing encoding functions (e.g., ASCII or Unicode). The implementation should handle only uppercase letters (`A-Z`) and ignore spaces. The user can choose to encrypt or decrypt, and the program ensures the key is valid.
@@ -117,7 +113,7 @@ def mainTask1():
 
 ---
 
-## 3. Task 2: Caesar Cipher with Two Keys
+Task 2: Caesar Cipher with Two Keys
 
 ### Task Description
 To enhance the security of the basic Caesar cipher, a second key, `k2`, is introduced. This second key is a permutation of the alphabet generated from a keyword provided by the user. The second key makes the cipher more resistant to simple attacks like brute force.
