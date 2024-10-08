@@ -209,6 +209,6 @@ def main():
 
 ---
 
-## 4. Conclusion
+## Conclusion
 
 In Task 1, a simple Caesar cipher was used to encrypt and decrypt data using just one key. This was further developed in Task 2 with the addition of a second key, {k2}, which permutes the alphabet and greatly strengthens the cipher against brute-force attacks. The principles of modular arithmetic are used to both jobs, together with extra error management and input validation to guarantee proper operation.
