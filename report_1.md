@@ -215,4 +215,4 @@ def main():
 
 ## 4. Conclusion
 
-In Task 1, a basic Caesar cipher was implemented to perform encryption and decryption based on a single key. Task 2 expanded on this by introducing a second key, `k2`, which permutes the alphabet, making the cipher significantly stronger against brute-force attacks. Both tasks follow modular arithmetic principles, with additional error handling and input validation to ensure correct operation.
+In Task 1, a simple Caesar cipher was used to encrypt and decrypt data using just one key. This was further developed in Task 2 with the addition of a second key, {k2}, which permutes the alphabet and greatly strengthens the cipher against brute-force attacks. The principles of modular arithmetic are used to both jobs, together with extra error management and input validation to guarantee proper operation.
